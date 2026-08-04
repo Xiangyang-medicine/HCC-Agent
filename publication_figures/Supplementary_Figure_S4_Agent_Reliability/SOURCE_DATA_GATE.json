@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "formal_gate_status": "FORMAL_ALL_COMPLETED_UNANALYZED",
+  "formal_record_count": 4860,
+  "api_error_count": 0,
+  "formal_case_count": 100,
+  "clean_b2_runs": 300,
+  "clean_b4_runs": 300,
+  "paired_cases": 100,
+  "fault_runs_b2_b4": 1440,
+  "support_rows": 600,
+  "clinical_utility_claim_permitted": false
+}

@@ -1,0 +1,16 @@
+{
+  "n_patients": 363,
+  "n_high": 181,
+  "n_low": 182,
+  "events_high": 82,
+  "events_low": 47,
+  "outcome_blind_cutoff": "median of patient-level mean OOF fold-risk percentiles",
+  "cutoff_value": 0.49274342835986673,
+  "cox_hr_high_vs_low": 2.206673157372487,
+  "cox_hr_ci_lower": 1.5405152274220946,
+  "cox_hr_ci_upper": 3.1608947037912425,
+  "cox_p_value": 1.5838814160781913e-05,
+  "logrank_chi_square": 19.610309212640605,
+  "logrank_p_value": 9.495545567403697e-06,
+  "interpretation_boundary": "Internal OOF association only; the median grouping rule is not claimed as an externally validated clinical cutoff."
+}

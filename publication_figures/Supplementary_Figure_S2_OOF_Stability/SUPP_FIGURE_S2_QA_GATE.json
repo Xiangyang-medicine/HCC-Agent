@@ -1,0 +1,48 @@
+{
+  "status": "SUPP_FIGURE_S2_QA_PASSED",
+  "success": true,
+  "checks": {
+    "source_gate_success": true,
+    "pair_rows_50": true,
+    "ten_pairs_per_model": true,
+    "stability_rows_1815": true,
+    "363_patients_per_model": true,
+    "m4_density_3630_rows": true,
+    "m5_density_3630_rows": true,
+    "density_values_bounded": true,
+    "consensus_rows_25": true,
+    "consensus_fraction_sums": true,
+    "all_prediction_qc_passed": true,
+    "all_combined_exports_exist": true,
+    "all_panel_exports_exist": true,
+    "svg_has_editable_text": true,
+    "png_large_enough": true,
+    "tiff_approximately_600_dpi": true
+  },
+  "files": {
+    "svg": {
+      "path": "F:\\ACM\\publication_figures\\Supplementary_Figure_S2_OOF_Stability\\Supplementary_Figure_S2_OOF_Stability.svg",
+      "sha256": "7400b1ac63c7254d2a1fe16bfda919b2cc86f3d894059fe7a2f46960ecb7b9ee"
+    },
+    "pdf": {
+      "path": "F:\\ACM\\publication_figures\\Supplementary_Figure_S2_OOF_Stability\\Supplementary_Figure_S2_OOF_Stability.pdf",
+      "sha256": "b3c93159fad434ec49349f5692eabfdad785c689ac866f71d09ce5028005fc82"
+    },
+    "png": {
+      "path": "F:\\ACM\\publication_figures\\Supplementary_Figure_S2_OOF_Stability\\Supplementary_Figure_S2_OOF_Stability.png",
+      "sha256": "ab4888741cf9ceb5c4ceb8f9d40047f53a5768f5d24be1630f32e75351a35fd6"
+    },
+    "tiff": {
+      "path": "F:\\ACM\\publication_figures\\Supplementary_Figure_S2_OOF_Stability\\Supplementary_Figure_S2_OOF_Stability.tiff",
+      "sha256": "fd2898a9adc69e2ebe2aacbc0e35ef69a2f23c35ddb5fe21a9882594d18c332b"
+    }
+  },
+  "image_size_px": [
+    2123,
+    1833
+  ],
+  "tiff_dpi": [
+    600.0,
+    600.0
+  ]
+}

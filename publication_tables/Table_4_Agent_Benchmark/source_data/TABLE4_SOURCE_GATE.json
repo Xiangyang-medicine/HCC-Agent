@@ -1,0 +1,86 @@
+{
+  "status": "TABLE4_SOURCE_LOCKED",
+  "formal_run_status": "FORMAL_ALL_COMPLETED_UNANALYZED",
+  "record_count": 4860,
+  "unique_record_count": 4860,
+  "api_error_count": 0,
+  "figure4_qa_status": "FIGURE4_QA_PASSED",
+  "offline_audit_status": "POSTHOC_OFFLINE_AUDIT_COMPLETED",
+  "confirmatory_endpoint_modified": false,
+  "strict_vs_frozen_clean_disagreement_count": 0,
+  "systems_exact": true,
+  "primary_paired_runs": 300,
+  "primary_b2_rate": 0.8166666666666668,
+  "primary_b4_rate": 0.9466666666666665,
+  "primary_difference": 0.13,
+  "primary_p_value": 1.999980000199998e-05,
+  "ablation_count": 4,
+  "fault_type_count": 8,
+  "fault_metric_count": 16,
+  "schema_metric_in_main_table": false,
+  "b2_internal_verifier_encoded_as_zero": false,
+  "unsupported_request_scoring_mismatch_preserved": true,
+  "claim_boundary": "Technical agent benchmark only; not clinical utility, diagnostic accuracy, treatment benefit, deployment readiness, or patient outcomes.",
+  "provenance": [
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\panel_a_system_contrast\\source_data.csv",
+      "role": "B2 and B4 architecture definitions",
+      "sha256": "f768fdbf7f412d8f6907e8894b2c06a1a89ff04947453c23c1e7a351d3642a5c"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\panel_b_primary_endpoint\\source_data.csv",
+      "role": "Prespecified composite-pass estimates",
+      "sha256": "6db86dd0ac6756a2c8077cb693eb308af5be2048dd72b9f4693d283005dc55db"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\panel_b_primary_endpoint\\paired_comparison.csv",
+      "role": "Primary paired comparison",
+      "sha256": "eafaaeeb4973081e3b2099425bd698f9c20a2fd8c6fd9f5bcc3846ad80c67a2c"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\panel_c_ablation_effects\\source_data.csv",
+      "role": "Paired component-ablation effects",
+      "sha256": "e25db0fac3ffb48ace38a163a12da9700678ec954ecde39af905ef433584afcf"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\panel_d_traceability_reliability\\source_data.csv",
+      "role": "Comparable traceability and repeatability metrics",
+      "sha256": "df8460bfaf13a26362e67f6e6fc15a1487d892e5c495c0a0e86b9714e21d69d4"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\panel_e_fault_handling\\source_data.csv",
+      "role": "Frozen fault-injection differences",
+      "sha256": "a0b8eb12f420ccaeb2783b3dee7d64b96460e9c9d534e6aedf57f9cab245caae"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\methodological_audit\\planning_error_summary.csv",
+      "role": "Post-hoc action-specification audit",
+      "sha256": "887c244908bbc5228c3d9f24c4befa4e1e9c8ecbc42b796a3dc00f6eb867f216"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\methodological_audit\\metric_definition_corrections.csv",
+      "role": "Audited metric terminology",
+      "sha256": "43f59e074ec8ecfacb0992039c958d1520ae6456158bf5f74218c2eedaff31d1"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\methodological_audit\\AUDIT_GATE.json",
+      "role": "Post-hoc offline audit gate",
+      "sha256": "e300015b775c108ccaaedafb1735d7f0ee6f896b3df4263c25a56755ff205215"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\FIGURE4_QA_GATE.json",
+      "role": "Figure 4 quality gate",
+      "sha256": "bf05ea4d17dba9df4d4653487d0acde433b53dbb9afd7f91ad8f65b7060cda3a"
+    },
+    {
+      "input_file": "F:\\ACM\\experiments\\phase4\\formal_remote_completed\\all_RUN_GATE.json",
+      "role": "Complete formal-run gate",
+      "sha256": "931e6fd3a1e45cf162a33d867fed421169ba31001c12d5b9acbf77f8a2287f92"
+    },
+    {
+      "input_file": "F:\\ACM\\experiments\\phase4\\formal_remote_completed\\all_run_records.jsonl",
+      "role": "Complete frozen 4,860-record JSONL",
+      "sha256": "5c748c408a0df5f9f163e9304679244af99ba20655f406bf937c63afb869f415"
+    }
+  ]
+}

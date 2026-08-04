@@ -1,0 +1,29 @@
+{
+  "status": "SUPP_FIGURE_S2_SOURCE_READY",
+  "success": true,
+  "checks": {
+    "input_rows_9075": true,
+    "five_models": true,
+    "363_patients": true,
+    "five_repeats": true,
+    "no_duplicate_model_repeat_patient": true,
+    "pair_rows_50": true,
+    "stability_rows_1815": true,
+    "density_rows_m4_3630": true,
+    "density_rows_m5_3630": true,
+    "consensus_rows_25": true,
+    "qc_rows_5": true,
+    "all_probabilities_bounded": true,
+    "all_survival_curves_monotonic": true
+  },
+  "canonical_input": "F:\\ACM\\experiments\\phase3a\\formal\\oof_predictions.csv",
+  "canonical_input_sha256": "7b21074e208a563bc99b6a0a8c458f076a5ab333612e65ce2659cd9d6571228f",
+  "output_rows": {
+    "panel_a_repeat_correlation\\source_data.csv": 50,
+    "panel_b_patient_rank_dispersion\\source_data.csv": 1815,
+    "panel_c_m4_quintile_transition\\source_data.csv": 3630,
+    "panel_d_m5_quintile_transition\\source_data.csv": 3630,
+    "panel_e_consensus_and_qc\\source_data.csv": 25,
+    "panel_e_consensus_and_qc\\source_data_qc.csv": 5
+  }
+}

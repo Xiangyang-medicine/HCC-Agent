@@ -1,0 +1,68 @@
+{
+  "status": "TABLE3_SOURCE_LOCKED",
+  "figure3_qa_status": "FIGURE3_QA_PASSED",
+  "analysis_scope": "secondary_exploratory_cross_platform_transport",
+  "cohorts_exact": true,
+  "cohort_count": 2,
+  "total_patients": 285,
+  "total_events": 112,
+  "all_bootstrap_complete": true,
+  "single_frozen_cutoff": true,
+  "cutoff_value": -0.0100213011825347,
+  "external_outcome_used_for_grouping": false,
+  "external_recalibration": false,
+  "gpl571_performance_included": false,
+  "gpl571_exclusion_recorded": true,
+  "frozen_nonzero_genes": [
+    "PKM",
+    "LDHA"
+  ],
+  "claim_boundary": "External cross-platform evaluation of the frozen gene-only component; not external validation of M4 or clinical utility.",
+  "provenance": [
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\panel_a_transport_workflow\\source_data.csv",
+      "role": "Patient-level frozen-threshold evaluation source",
+      "sha256": "9b19cb8f7d72cde6332193a394da76fb27f39bfa19d770203c08bc64fabc3f57"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\panel_a_transport_workflow\\supplementary_cohort_flow.csv",
+      "role": "External cohort flow",
+      "sha256": "f88a2c6fe6570ae698cb141fb06997de931f19813b6a3a453bb6260e153d32e0"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\panel_b_cohort_flow\\source_data.csv",
+      "role": "Continuous-score Cox associations",
+      "sha256": "7e22eba8203d561474b9085e31e85367cb4b3e5a705f7a43036558d5a3010db6"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\panel_c_frozen_coefficients\\source_data.csv",
+      "role": "Frozen 15-gene coefficient profile",
+      "sha256": "cac1bc2ca653fed8d8ffe82a14a1943e8ab8b583ed6cc43bf509e563a9962e55"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\panel_d_external_discrimination\\source_data.csv",
+      "role": "Bootstrap discrimination estimates",
+      "sha256": "6aaa210f44ff375cce5cadfb81979941ac39d3c3dd8369c7f530208bb7b912e9"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\analysis_manifest.json",
+      "role": "Figure 3 locked analysis manifest",
+      "sha256": "e9a35a840060e5660ef2e1ed98711f180416be439127def0e6c3849d97920df8"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\FIGURE3_QA_GATE.json",
+      "role": "Figure 3 quality gate",
+      "sha256": "63c762c80815329a17e7ac51aa1d23dfaa093e974f862c73d15d7fe3126f48cb"
+    },
+    {
+      "input_file": "F:\\ACM\\experiments\\phase3b\\microarray_transport\\MICROARRAY_SOURCE_AND_INPUT_AUDIT.json",
+      "role": "External source and input audit",
+      "sha256": "677bed6ff55c4070642bd0e5d94a8ae81698daf2bb0250abd62c6d83957351ea"
+    },
+    {
+      "input_file": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\FIGURE_3_LEGEND.md",
+      "role": "Canonical Figure 3 reporting text",
+      "sha256": "4237b81eac4d75457fea245222e944d1cbcdf0f3629020a0a2093a3c392ead28"
+    }
+  ]
+}

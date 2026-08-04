@@ -1,0 +1,37 @@
+{
+  "n_patients": 371,
+  "n_train": 296,
+  "n_test": 75,
+  "n_features": 17,
+  "feature_names": [
+    "stage",
+    "grade",
+    "gender",
+    "age",
+    "afp_level",
+    "albumin",
+    "bilirubin",
+    "HK2",
+    "PKM",
+    "LDHA",
+    "LDHB",
+    "GPI",
+    "PFKL",
+    "GLS",
+    "GLUD1",
+    "FASN",
+    "SCD"
+  ],
+  "n_gene_features": 10,
+  "train_events": 90,
+  "test_events": 26,
+  "stage_distribution": {
+    "Stage I": 80,
+    "Stage II": 68,
+    "Stage IIIA": 52,
+    "Stage IV": 51,
+    "Stage IIIB": 45
+  },
+  "random_seed": 42,
+  "timestamp": "2026-07-09T11:24:22.899408"
+}

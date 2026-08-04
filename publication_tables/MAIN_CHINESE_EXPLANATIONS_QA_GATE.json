@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checks_passed": 21,
+  "checks_total": 21,
+  "checks": {
+    "eight_explanation_documents_exist": true,
+    "four_figure_explanations_exist": true,
+    "four_table_explanations_exist": true,
+    "all_documents_are_detailed": true,
+    "all_documents_have_required_structure": true,
+    "utf8_text_clean": true,
+    "no_patch_markers": true,
+    "master_index_exists": true,
+    "figure1_missing_asset_is_transparently_disclosed": true,
+    "table1_primary_counts_match": true,
+    "figure2_values_match": true,
+    "table2_values_match": true,
+    "figure3_values_match": true,
+    "table3_values_match": true,
+    "figure4_values_match": true,
+    "table4_values_match": true,
+    "reporting_boundaries_present": true,
+    "planning_error_definition_correct": true,
+    "source_and_code_references_present": true,
+    "existing_main_figure_assets_present": true,
+    "all_main_table_workbooks_present": true
+  },
+  "documents": {
+    "Figure 1": "F:\\ACM\\publication_figures\\Figure_1_System_Architecture\\中文详细解读.md",
+    "Figure 2": "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\中文详细解读.md",
+    "Figure 3": "F:\\ACM\\publication_figures\\Figure_3_External_Transport\\中文详细解读.md",
+    "Figure 4": "F:\\ACM\\publication_figures\\Figure_4_Agent_Benchmark\\中文详细解读.md",
+    "Table 1": "F:\\ACM\\publication_tables\\Table_1_Cohort_Characteristics\\中文详细解读.md",
+    "Table 2": "F:\\ACM\\publication_tables\\Table_2_Internal_Model_Performance\\中文详细解读.md",
+    "Table 3": "F:\\ACM\\publication_tables\\Table_3_External_Transport\\中文详细解读.md",
+    "Table 4": "F:\\ACM\\publication_tables\\Table_4_Agent_Benchmark\\中文详细解读.md"
+  },
+  "index": "F:\\ACM\\publication_tables\\正图正表中文解读总索引.md",
+  "figure1_asset_status": "PENDING_FINAL_MERMAID_EXPORT",
+  "reporting_boundaries": [
+    "M4 has the strongest descriptive internal profile, but superiority versus M1 is not established after correction.",
+    "External microarray results assess frozen gene-only transport, not full M4 validation.",
+    "GPL571 N=21 was excluded before performance analysis.",
+    "The Agent benchmark supports technical reliability only, not clinical utility or physician equivalence."
+  ]
+}

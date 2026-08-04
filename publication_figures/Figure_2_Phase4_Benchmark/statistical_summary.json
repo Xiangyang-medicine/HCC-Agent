@@ -1,0 +1,78 @@
+{
+  "primary_comparison": {
+    "difference": 0.13,
+    "ci_low": 0.08,
+    "ci_high": 0.1833333333333333,
+    "p_value": 1.999980000199998e-05,
+    "n_cases": 100,
+    "n_bootstrap": 2000,
+    "n_permutation": 100000,
+    "system_a": "B4_FULL_CLOSED_LOOP",
+    "system_b": "B2_SINGLE_LLM_WITH_TOOLS",
+    "n_paired_runs": 300,
+    "both_success": 234,
+    "b4_only_success": 50,
+    "b2_only_success": 11,
+    "both_failure": 5,
+    "confirmatory": true
+  },
+  "ablation_comparisons": [
+    {
+      "difference": 0.02,
+      "ci_low": -0.016666666666666666,
+      "ci_high": 0.06,
+      "p_value": 0.4139758602413976,
+      "n_cases": 100,
+      "n_bootstrap": 2000,
+      "n_permutation": 100000,
+      "reference": "B4_FULL_CLOSED_LOOP",
+      "ablation": "B4_NO_EVIDENCE_CONTRACT",
+      "ablation_display_name": "No evidence contract",
+      "confirmatory": false,
+      "p_holm": 0.4139758602413976
+    },
+    {
+      "difference": 0.9466666666666665,
+      "ci_low": 0.92,
+      "ci_high": 0.97,
+      "p_value": 9.99990000099999e-06,
+      "n_cases": 100,
+      "n_bootstrap": 2000,
+      "n_permutation": 100000,
+      "reference": "B4_FULL_CLOSED_LOOP",
+      "ablation": "B4_NO_PERSISTENT_STRUCTURED_STATE",
+      "ablation_display_name": "No persistent state",
+      "confirmatory": false,
+      "p_holm": 3.999960000399996e-05
+    },
+    {
+      "difference": 0.16666666666666663,
+      "ci_low": 0.11,
+      "ci_high": 0.22333333333333333,
+      "p_value": 9.99990000099999e-06,
+      "n_cases": 100,
+      "n_bootstrap": 2000,
+      "n_permutation": 100000,
+      "reference": "B4_FULL_CLOSED_LOOP",
+      "ablation": "B4_NO_REVISION_LOOP",
+      "ablation_display_name": "No revision loop",
+      "confirmatory": false,
+      "p_holm": 3.999960000399996e-05
+    },
+    {
+      "difference": 0.22666666666666668,
+      "ci_low": 0.16333333333333333,
+      "ci_high": 0.29333333333333333,
+      "p_value": 9.99990000099999e-06,
+      "n_cases": 100,
+      "n_bootstrap": 2000,
+      "n_permutation": 100000,
+      "reference": "B4_FULL_CLOSED_LOOP",
+      "ablation": "B4_NO_VERIFIER",
+      "ablation_display_name": "No verifier",
+      "confirmatory": false,
+      "p_holm": 3.999960000399996e-05
+    }
+  ],
+  "interpretation_boundary": "Agent-system benchmark only; no clinical utility, treatment, deployment, or patient-outcome claim."
+}

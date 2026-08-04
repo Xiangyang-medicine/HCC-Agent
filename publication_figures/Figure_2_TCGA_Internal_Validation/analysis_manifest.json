@@ -1,0 +1,28 @@
+{
+  "figure": "Figure 2 — TCGA-LIHC internal validation",
+  "status": "SOURCE_DATA_GENERATED_FROM_CANONICAL_LOCKED_OUTPUTS",
+  "input_files": {
+    "F:\\ACM\\experiments\\phase3a\\formal\\metrics_summary.json": "1874ac2c7b94f5724b95de7316b7eebe1cc2f32c0a80fa306fb82510d6da8e48",
+    "F:\\ACM\\experiments\\phase3a\\formal\\oof_predictions.csv": "7b21074e208a563bc99b6a0a8c458f076a5ab333612e65ce2659cd9d6571228f",
+    "F:\\ACM\\experiments\\phase3a\\formal\\model_comparisons_v6.csv": "51102142ba6b9c441212551dd7e3afd771bf7d5522e5ea626f74c9e05ad93f48",
+    "F:\\ACM\\experiments\\phase3a\\sensitivity\\SENSITIVITY_SUMMARY_V2.csv": "40793f8219324c7b5c54f840566c969d20d8c66bbe2b40dee8e49dd18269799c",
+    "F:\\ACM\\experiments\\phase3a\\formal\\AUDIT_REPORT_V5.json": "567ca9c689060c878d9d5f580146ae36c23aa5aeac3f703d7bb196ec77248450"
+  },
+  "output_files": {
+    "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\panel_a_model_discrimination\\source_data.csv": "eb966f0f1cc13f411c1fba0c5d338b9a0d2188343f522b77a2742dc9d9c5f89d",
+    "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\panel_b_paired_differences\\source_data.csv": "d2f73400821f665dae0d1af8aba1803657ef1068100540ee0176e5f124b33b48",
+    "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\panel_c_oof_survival\\source_data_patients.csv": "a6731245940ecd4f773dbdf1bfa4afacb8fb70c171c99f1827e022cea535483a",
+    "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\panel_c_oof_survival\\source_data_km_curves.csv": "a36d8f028b0b812ea5e0f9dd4ba89bfb41618382c1ef487e45b84a6cb68e74cb",
+    "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\panel_c_oof_survival\\source_data_at_risk.csv": "aeec82126a4190ce9438cda098ee46d694b7880e7a65a9ebd0e79863f5d54bc8",
+    "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\panel_c_oof_survival\\statistics.json": "f96e83cbef337643fab2990ec2fc3feea33edcef1f0385d5a1af95fdd833e4da",
+    "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\panel_d_prediction_error\\source_data.csv": "feba34013a64bd17860c569a35495b6af439c388c53e34143514508869d22129",
+    "F:\\ACM\\publication_figures\\Figure_2_TCGA_Internal_Validation\\panel_e_sensitivity\\source_data.csv": "69c431762b5f73355981c698710d21ca99686b8f6cd0fa51f4c13f94e6c099c5"
+  },
+  "critical_constraints": [
+    "model_comparisons_v6 is canonical; v5 and earlier are not used",
+    "all model summaries use 25 outer folds from 5x5 repeated nested CV",
+    "OOF risk grouping uses outcome-blind within-fold ranks",
+    "no result is simulated or manually entered",
+    "M4 is described as provisional primary candidate, not statistically superior to M1 after correction"
+  ]
+}

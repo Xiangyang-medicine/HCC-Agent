@@ -1,0 +1,32 @@
+{
+  "status": "FIGURE3_SOURCE_DATA_GENERATED",
+  "core_claim_scope": "secondary_exploratory_cross_platform_transport",
+  "external_cohorts_in_performance_panel": 2,
+  "pooled_patient_analysis": false,
+  "external_outcomes_used_for_model_fitting": false,
+  "external_cutpoint_selected": false,
+  "risk_group_cutpoint_origin": "TCGA derivation median",
+  "risk_group_cutpoint": -0.010021301182534704,
+  "external_outcome_used_for_risk_grouping": false,
+  "external_evaluation_cox_association_reported": true,
+  "external_evaluation_cox_recalibrated_model": false,
+  "gpl571_performance_displayed": false,
+  "input_hashes": {
+    "experiments\\phase3b\\derivation\\M2T_CROSSPLATFORM_MANIFEST.json": "bb569d2ee3c3d03a0182c7538faa0c24b3fd4225886bf97857119a8016ea5861",
+    "experiments\\phase3b\\derivation\\m2t_crossplatform_artifact.joblib": "eb4973d193d3a63af27ebcb71d85d2df092214f03ea81cce37eefda8988a0ab0",
+    "experiments\\phase3b\\microarray_transport\\MICROARRAY_TRANSPORT_GATE.json": "1a883dc4e464f866bb0549a49a9d05181b242531287ab8830b674b46731196be",
+    "experiments\\phase3b\\microarray_transport\\MICROARRAY_SOURCE_AND_INPUT_AUDIT.json": "677bed6ff55c4070642bd0e5d94a8ae81698daf2bb0250abd62c6d83957351ea",
+    "data\\modeling\\tcga_lihc_modeling_dataset.parquet": "f1cc068b189e0ae982e8d2fe26596176c8c445656b537f8bdd3eabad270f007c",
+    "experiments\\phase3b\\microarray_transport\\GSE14520_GPL3921_m2t_evaluation_predictions.csv": "3550bef86da20888aaf750dadfd7456f5a319784a4772f9b1088076ee1c4b802",
+    "experiments\\phase3b\\microarray_transport\\GSE116174_GPL570_m2t_evaluation_predictions.csv": "298e623ec9fe0ee3c093fad18169e54736a5d80d6f31b9afa7635d31c6a9f3b3",
+    "experiments\\phase3b\\microarray_transport\\GSE14520_GPL3921_M2T_EVALUATION.json": "f8c22fbb8e390fc3541a25d0f222f2cbe77cfc36b7783aac1a4540391bcd555b",
+    "experiments\\phase3b\\microarray_transport\\GSE116174_GPL570_M2T_EVALUATION.json": "df347d48a679c516adb0faec0096ce5d80f010b43e0b663cf101f098d98b286c"
+  },
+  "output_hashes": {
+    "panel_a_transport_workflow\\source_data.csv": "9b19cb8f7d72cde6332193a394da76fb27f39bfa19d770203c08bc64fabc3f57",
+    "panel_a_transport_workflow\\supplementary_cohort_flow.csv": "f88a2c6fe6570ae698cb141fb06997de931f19813b6a3a453bb6260e153d32e0",
+    "panel_b_cohort_flow\\source_data.csv": "7e22eba8203d561474b9085e31e85367cb4b3e5a705f7a43036558d5a3010db6",
+    "panel_c_frozen_coefficients\\source_data.csv": "cac1bc2ca653fed8d8ffe82a14a1943e8ab8b583ed6cc43bf509e563a9962e55",
+    "panel_d_external_discrimination\\source_data.csv": "6aaa210f44ff375cce5cadfb81979941ac39d3c3dd8369c7f530208bb7b912e9"
+  }
+}

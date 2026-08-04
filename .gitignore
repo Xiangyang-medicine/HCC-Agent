@@ -1,0 +1,59 @@
+# Credentials and local environment
+.secrets/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+
+# Python, notebook and editor state
+.venv*/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.py[cod]
+*.egg-info/
+.Rhistory
+.claude/
+tmp/
+
+# Raw, processed and external study data
+data/
+GSE116174/
+GSE14520/
+Outside data/
+*.parquet
+*.h5
+*.h5ad
+*.joblib
+*.pkl
+*.pt
+*.npy
+*.npz
+*.gz
+*.tar
+
+# Generated runs, model artifacts, manuscript outputs and figure binaries
+experiments/
+figures/
+figures & tables/
+publication_supplementary/
+publication_figures/**/legacy_archive/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.xlsx
+*.docx
+*.pptx
+*.jsonl
+
+# Local logs and ad-hoc outputs
+*.log
+pytest_output.txt
+weight_checkpoint_*.pt

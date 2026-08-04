@@ -1,0 +1,129 @@
+{
+  "figure": "Figure_2_TCGA_Internal_Validation",
+  "status": "FIGURE2_QA_PASSED",
+  "success": true,
+  "checks_passed": 24,
+  "checks_total": 24,
+  "checks": [
+    {
+      "name": "canonical_inputs_exist",
+      "passed": true,
+      "detail": "all manifest inputs exist"
+    },
+    {
+      "name": "canonical_v6_comparison_used",
+      "passed": true,
+      "detail": "model_comparisons_v6.csv is present in the manifest"
+    },
+    {
+      "name": "superseded_v5_not_used",
+      "passed": true,
+      "detail": "no v5 comparison file appears in the manifest"
+    },
+    {
+      "name": "panel_a_row_count",
+      "passed": true,
+      "detail": "rows=250, expected=250"
+    },
+    {
+      "name": "panel_a_fold_coverage",
+      "passed": true,
+      "detail": "25 folds for every model and metric"
+    },
+    {
+      "name": "panel_b_row_count",
+      "passed": true,
+      "detail": "rows=8, expected=8"
+    },
+    {
+      "name": "panel_b_m4_harrell_adjusted_p",
+      "passed": true,
+      "detail": "adjusted P=0.095904095904096"
+    },
+    {
+      "name": "panel_b_m4_uno_adjusted_p",
+      "passed": true,
+      "detail": "adjusted P=1.000"
+    },
+    {
+      "name": "panel_b_no_false_superiority",
+      "passed": true,
+      "detail": "M4 vs M1 is non-significant after correction for both metrics"
+    },
+    {
+      "name": "panel_c_patient_count",
+      "passed": true,
+      "detail": "patients=363"
+    },
+    {
+      "name": "panel_c_five_oof_predictions",
+      "passed": true,
+      "detail": "every patient has five OOF predictions"
+    },
+    {
+      "name": "panel_c_group_total",
+      "passed": true,
+      "detail": "high=181, low=182"
+    },
+    {
+      "name": "panel_c_hr_direction",
+      "passed": true,
+      "detail": "HR=2.2067"
+    },
+    {
+      "name": "panel_d_row_count",
+      "passed": true,
+      "detail": "rows=150, expected=150"
+    },
+    {
+      "name": "panel_d_fold_coverage",
+      "passed": true,
+      "detail": "25 folds for each model/horizon combination"
+    },
+    {
+      "name": "panel_e_row_count",
+      "passed": true,
+      "detail": "rows=45, expected=45"
+    },
+    {
+      "name": "panel_e_m4_harrell_rank",
+      "passed": true,
+      "detail": "M4 Harrell C rank is 1 in SA1-SA3"
+    },
+    {
+      "name": "panel_e_m4_ibs_rank",
+      "passed": true,
+      "detail": "M4 IBS rank is 1 in SA1-SA3"
+    },
+    {
+      "name": "all_source_data_finite",
+      "passed": true,
+      "detail": "all numeric source-data cells are finite"
+    },
+    {
+      "name": "assembled_exports_exist",
+      "passed": true,
+      "detail": ".svg=238022, .pdf=92287, .png=493744, .tiff=2844408"
+    },
+    {
+      "name": "svg_text_editable",
+      "passed": true,
+      "detail": "SVG contains editable text elements"
+    },
+    {
+      "name": "pdf_single_page",
+      "passed": true,
+      "detail": "pages=1"
+    },
+    {
+      "name": "tiff_resolution",
+      "passed": true,
+      "detail": "pixels=4350x4890"
+    },
+    {
+      "name": "standalone_panel_exports_exist",
+      "passed": true,
+      "detail": "all five panels have SVG/PDF/PNG/TIFF exports"
+    }
+  ]
+}

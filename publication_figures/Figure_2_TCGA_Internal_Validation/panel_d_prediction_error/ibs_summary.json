@@ -1,0 +1,6 @@
+{
+  "M1_clinical_cox": 0.19602228157540563,
+  "M4_combined_rsf": 0.1837842582660473,
+  "direction": "lower_is_better",
+  "definition": "mean integrated Brier score across 25 outer folds"
+}

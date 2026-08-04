@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "included_cohorts": [
+    "GSE14520_GPL3921",
+    "GSE116174_GPL570"
+  ],
+  "included_samples": {
+    "GSE14520_GPL3921": 221,
+    "GSE116174_GPL570": 64
+  },
+  "all_15_genes_available_in_included_platforms": true,
+  "pca_rows_before": 285,
+  "pca_rows_after": 285,
+  "score_rows": 285,
+  "gpl571_reporting_rule": "N=21; insufficient sample size; no performance analysis",
+  "gpl571_performance_rows_in_figure": 0,
+  "outcomes_used_for_mapping_or_standardization": false
+}

@@ -1,0 +1,32 @@
+{
+  "status": "TABLE2_QA_PASSED",
+  "success": true,
+  "checks": {
+    "workbook_exists": true,
+    "preview_exists": true,
+    "model_ids_exact": true,
+    "all_models_have_25_folds": true,
+    "formal_comparisons_exactly_8": true,
+    "all_bootstraps_complete": true,
+    "m4_best_harrell_descriptively": true,
+    "m4_best_uno_descriptively": true,
+    "m4_lowest_ibs_descriptively": true,
+    "m4_harrell_vs_m1_not_significant_adjusted": true,
+    "m4_uno_vs_m1_not_significant_adjusted": true,
+    "m5_uno_vs_m1_significantly_worse": true,
+    "m4_harrell_greater_than_m1_descriptively": true,
+    "source_gate_locked": true,
+    "formula_errors_absent": true
+  },
+  "files": {
+    "workbook": "F:\\ACM\\publication_tables\\Table_2_Internal_Model_Performance\\Table_2_Internal_Model_Performance.xlsx",
+    "workbook_sha256": "54996ebce355586cc4f852b1611fefb2dd289b3ec7c3990eb02530ac58d689f1",
+    "preview": "F:\\ACM\\publication_tables\\Table_2_Internal_Model_Performance\\Table_2_Preview.png",
+    "preview_sha256": "dbd58873cf6e16fa3ab182ca522a66928b6e3ea171a835749c894b7626202c89"
+  },
+  "locked_interpretation": {
+    "m4_status": "PROVISIONAL_PRIMARY_CANDIDATE",
+    "m4_vs_m1_after_adjustment": "NOT_SIGNIFICANT",
+    "m5_vs_m1_uno_c": "SIGNIFICANTLY_WORSE"
+  }
+}

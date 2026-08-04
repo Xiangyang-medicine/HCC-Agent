@@ -1,0 +1,27 @@
+{
+  "source": "assemble_figure4.py",
+  "backend": "python",
+  "ready": true,
+  "strict": false,
+  "counts": {
+    "PASS": 14,
+    "WARN": 0,
+    "FAIL": 0
+  },
+  "checks": {
+    "SOURCE-SYNTAX": true,
+    "FONT-FAMILY": true,
+    "FONT-SIZE": true,
+    "COLOR-MAP": true,
+    "EDITABLE-TEXT": true,
+    "EXPORT-VECTOR": true,
+    "EXPORT-RASTER": true,
+    "RASTER-DPI": true,
+    "FINAL-WIDTH": true,
+    "DATA-SAMPLING": true,
+    "DATA-EXCLUSION": true,
+    "DEMO-DATA": true,
+    "LOG-GUARD": true,
+    "BACKEND-EXCLUSIVE": true
+  }
+}

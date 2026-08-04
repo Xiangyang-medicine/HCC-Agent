@@ -1,0 +1,34 @@
+{
+  "status": "FIGURE2_SOURCE_DATA_READY",
+  "input_csv": "F:\\ACM\\experiments\\phase4\\formal_remote_completed\\all_case_level_metrics.csv",
+  "input_csv_sha256": "7a1493c9e5b18ecf7cd11296df2ebdecc89b95ed895a1c54bc53a45b46327c9a",
+  "input_gate_sha256": "931e6fd3a1e45cf162a33d867fed421169ba31001c12d5b9acbf77f8a2287f92",
+  "input_gate_status": "FORMAL_ALL_COMPLETED_UNANALYZED",
+  "record_count": 4860,
+  "unique_record_count": 4860,
+  "api_error_count": 0,
+  "run_kind_counts": {
+    "ablation": 1200,
+    "clean": 1500,
+    "fault": 2160
+  },
+  "unique_cases": 100,
+  "formal_repeats": [
+    1,
+    2,
+    3
+  ],
+  "bootstrap": {
+    "unit": "case_id",
+    "resamples": 2000,
+    "seed": 20260728,
+    "interval": "percentile_95"
+  },
+  "paired_permutation": {
+    "unit": "case_id",
+    "draws": 100000,
+    "seed": 20260729,
+    "two_sided": true
+  },
+  "analysis_script_sha256": "4fe0ee7740e0bd7db7d28e6e85da7b35dab2899467f2e51e484079c1fdd1cc98"
+}

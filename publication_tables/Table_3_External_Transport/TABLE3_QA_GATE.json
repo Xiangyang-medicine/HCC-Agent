@@ -1,0 +1,29 @@
+{
+  "status": "TABLE3_QA_PASSED",
+  "success": true,
+  "checks": {
+    "workbook_exists": true,
+    "preview_exists": true,
+    "cohorts_exact": true,
+    "total_patients_285": true,
+    "total_events_112": true,
+    "all_bootstrap_iterations_1000": true,
+    "high_low_counts_match_cohort_size": true,
+    "single_frozen_cutoff": true,
+    "no_external_outcome_grouping": true,
+    "no_external_recalibration": true,
+    "gpl571_not_in_performance": true,
+    "gpl571_exclusion_recorded": true,
+    "two_nonzero_genes": true,
+    "nonzero_genes_exact": true,
+    "source_gate_locked": true,
+    "formula_errors_absent": true
+  },
+  "files": {
+    "workbook": "F:\\ACM\\publication_tables\\Table_3_External_Transport\\Table_3_External_Transport.xlsx",
+    "workbook_sha256": "a0d162494d8135334076a256ab3edd9e26a877d16671167a076a24e3b94b9bb7",
+    "preview": "F:\\ACM\\publication_tables\\Table_3_External_Transport\\Table_3_Preview.png",
+    "preview_sha256": "b99f66808de5be3b6c013229f136cf22e9d022f8c191bbe91edd254cc3e81092"
+  },
+  "claim_boundary": "External cross-platform evaluation of the frozen gene-only component; not external validation of M4 or clinical utility."
+}

@@ -1,0 +1,34 @@
+{
+  "status": "POSTHOC_OFFLINE_AUDIT_COMPLETED",
+  "raw_record_count": 4860,
+  "clean_record_count": 1500,
+  "strict_vs_frozen_clean_disagreement_count": 0,
+  "planning_summary": [
+    {
+      "system": "B4_FULL_CLOSED_LOOP",
+      "display_name": "B4 Verifier-guided closed loop",
+      "n_runs": 300,
+      "initial_invalid_n": 41,
+      "initial_invalid_rate": 0.13666666666666666,
+      "repaired_n": 34,
+      "repair_rate_among_initial_invalid": 0.8292682926829268,
+      "final_invalid_n": 7,
+      "final_invalid_rate": 0.023333333333333334
+    },
+    {
+      "system": "B2_SINGLE_LLM_WITH_TOOLS",
+      "display_name": "B2 Tool-using single controller",
+      "n_runs": 300,
+      "initial_invalid_n": 33,
+      "initial_invalid_rate": 0.11,
+      "repaired_n": 0,
+      "repair_rate_among_initial_invalid": 0.0,
+      "final_invalid_n": 33,
+      "final_invalid_rate": 0.11
+    }
+  ],
+  "raw_jsonl_sha256": "5c748c408a0df5f9f163e9304679244af99ba20655f406bf937c63afb869f415",
+  "run_gate_sha256": "931e6fd3a1e45cf162a33d867fed421169ba31001c12d5b9acbf77f8a2287f92",
+  "audit_script_sha256": "6618de003ccb3d4956eae6be9492f49e2b4706d81dc3615c81e092ec946b011b",
+  "confirmatory_endpoint_modified": false
+}

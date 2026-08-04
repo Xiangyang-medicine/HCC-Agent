@@ -1,0 +1,42 @@
+{
+  "status": "SUPP_FIGURE_S1_QA_PASSED",
+  "success": true,
+  "checks": {
+    "source_gate_success": true,
+    "auc_375_rows": true,
+    "calibration_60_rows_each": true,
+    "six_bins_each_model_repeat": true,
+    "calibration_bounded": true,
+    "combined_exports": true,
+    "panel_exports": true,
+    "editable_svg_text": true,
+    "png_large_enough": true,
+    "tiff_600_dpi": true
+  },
+  "files": {
+    "svg": {
+      "path": "F:\\ACM\\publication_figures\\Supplementary_Figure_S1_Time_Dependent_Calibration\\Supplementary_Figure_S1_Time_Dependent_Calibration.svg",
+      "sha256": "b5592a768a4d80d4e5849c050904845bd7c67f2bbb37b0bc6239e250c58894b9"
+    },
+    "pdf": {
+      "path": "F:\\ACM\\publication_figures\\Supplementary_Figure_S1_Time_Dependent_Calibration\\Supplementary_Figure_S1_Time_Dependent_Calibration.pdf",
+      "sha256": "db5d56d9e12d06f8da84b4b3fa60043c24f537fb09b5b207ae23d5f7886e7efc"
+    },
+    "png": {
+      "path": "F:\\ACM\\publication_figures\\Supplementary_Figure_S1_Time_Dependent_Calibration\\Supplementary_Figure_S1_Time_Dependent_Calibration.png",
+      "sha256": "16f783ac65ecbe4ae0664c87ed9a4f63f01e36bc7499161926943b8b40f06be8"
+    },
+    "tiff": {
+      "path": "F:\\ACM\\publication_figures\\Supplementary_Figure_S1_Time_Dependent_Calibration\\Supplementary_Figure_S1_Time_Dependent_Calibration.tiff",
+      "sha256": "e78c8fa8b856e1ae9278b1f9b2f801cc415708d87ba19706cdb69a56a3bed907"
+    }
+  },
+  "image_size_px": [
+    2047,
+    1481
+  ],
+  "tiff_dpi": [
+    600.0,
+    600.0
+  ]
+}

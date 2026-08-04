@@ -1,0 +1,18 @@
+{
+  "status": "TABLE1_SOURCE_DATA_GENERATED",
+  "success": true,
+  "cohorts_analysed": 3,
+  "tcga_patients": 363,
+  "gse14520_gpl3921_patients": 221,
+  "gse116174_gpl570_patients": 64,
+  "gpl571_performance_analysed": false,
+  "gpl571_exclusion_reason": "Sample size too small (N=21).",
+  "all_external_counts_match_figure3": true,
+  "output_hashes": {
+    "cohort_characteristics_numeric.csv": "7018d4ece29e2b61827d22b51abb39f055b5469bf2cf42b658041b530c3b7514",
+    "excluded_cohort_record.csv": "6607bd99285889cdd342109410daca380179635de6753de8299dcebd35fdff5c",
+    "input_provenance.csv": "a52eec35343eeb81c4384a3718e9d5ca8c7c80931a28588817d03cf4aafbc0a0",
+    "table1_payload.json": "967bf2cca36e1e0b87f0ee3b207556001ad4ea85e3f264912348fd81c06a09f1",
+    "Table_1_Cohort_Characteristics.csv": "2b5e18c16e33ab9bde71bec1b8a76214d60623c75dfff42e69c9bb2069a4da50"
+  }
+}

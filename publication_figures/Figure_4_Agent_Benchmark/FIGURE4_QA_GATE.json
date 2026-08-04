@@ -1,0 +1,40 @@
+{
+  "status": "FIGURE4_QA_PASSED",
+  "success": true,
+  "checks_passed": 25,
+  "checks_total": 25,
+  "failed_checks": [],
+  "checks": {
+    "exists_Figure_4_Agent_Benchmark.svg": true,
+    "exists_Figure_4_Agent_Benchmark.pdf": true,
+    "exists_Figure_4_Agent_Benchmark.tiff": true,
+    "exists_Figure_4_Agent_Benchmark.png": true,
+    "exists_AUDIT_GATE.json": true,
+    "exists_OFFLINE_SCORING_AUDIT.md": true,
+    "exists_source_data.csv": true,
+    "audit_status": true,
+    "raw_records_4860": true,
+    "confirmatory_endpoint_unchanged": true,
+    "strict_audit_no_clean_disagreement": true,
+    "primary_difference_13pp": true,
+    "primary_paired_runs_300": true,
+    "primary_pair_counts_sum_300": true,
+    "no_schema_metric_in_main_panels": true,
+    "no_verifier_zero_metric_in_main_panels": true,
+    "no_inf_panel_b_primary_endpoint/source_data.csv": true,
+    "no_inf_panel_c_ablation_effects/source_data.csv": true,
+    "no_inf_panel_d_traceability_reliability/source_data.csv": true,
+    "no_inf_panel_e_fault_handling/source_data.csv": true,
+    "svg_editable_text": true,
+    "svg_has_five_panel_labels": true,
+    "tiff_minimum_dimensions": true,
+    "tiff_600dpi": true,
+    "png_300dpi": true
+  },
+  "output_hashes": {
+    "Figure_4_Agent_Benchmark.svg": "312b86e86076cf65cfe0788af9465ae948366dcaf8e8ae3430884884e6f17267",
+    "Figure_4_Agent_Benchmark.pdf": "3f4536d3497a680ee2f70933ced9591ae82fb286200780201b48eef1e6c18e60",
+    "Figure_4_Agent_Benchmark.tiff": "b4503bfda76f990b4ce7d03db01907ed99951491b688b0a322bf6d96c8462448",
+    "Figure_4_Agent_Benchmark.png": "aede88fe6844a71a30f2da9c4bf63eab68dd13e6b850214accead187fb846913"
+  }
+}

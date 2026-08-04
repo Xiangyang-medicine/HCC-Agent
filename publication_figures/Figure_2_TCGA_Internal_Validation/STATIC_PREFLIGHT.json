@@ -1,0 +1,27 @@
+{
+  "source": "assemble_figure2.py",
+  "backend": "python",
+  "summary": {
+    "ready": true,
+    "strict": false,
+    "counts": {
+      "PASS": 14,
+      "WARN": 0,
+      "FAIL": 0
+    }
+  },
+  "verified_items": [
+    "source syntax",
+    "publication-safe font family",
+    "minimum detected text size of 6.6 pt",
+    "no unsafe rainbow colormap",
+    "editable SVG and PDF text",
+    "SVG and PDF vector exports",
+    "600-dpi TIFF export",
+    "184.1-mm journal figure width",
+    "no detected row sampling",
+    "no detected unreported data exclusion",
+    "no simulated-data generator",
+    "Python-only plotting backend"
+  ]
+}

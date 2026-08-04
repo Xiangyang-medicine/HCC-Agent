@@ -1,0 +1,42 @@
+{
+  "status": "TABLE4_QA_PASSED",
+  "success": true,
+  "checks": {
+    "workbook_exists": true,
+    "preview_exists": true,
+    "formal_record_count_4860": true,
+    "formal_unique_count_4860": true,
+    "no_api_errors": true,
+    "systems_exact_b2_b4": true,
+    "primary_300_runs_each": true,
+    "primary_success_counts": true,
+    "primary_rates": true,
+    "primary_difference_13pp": true,
+    "primary_difference_ci": true,
+    "paired_outcomes_sum_300": true,
+    "traceability_rows_6": true,
+    "planning_rows_2": true,
+    "four_ablations": true,
+    "eight_fault_types": true,
+    "unsupported_scoring_mismatch_preserved": true,
+    "confirmatory_endpoint_unchanged": true,
+    "strict_audit_zero_disagreement": true,
+    "schema_metric_absent": true,
+    "b2_verifier_not_zero_coded": true,
+    "source_gate_locked": true,
+    "formula_errors_absent": true
+  },
+  "files": {
+    "workbook": "F:\\ACM\\publication_tables\\Table_4_Agent_Benchmark\\Table_4_Agent_Benchmark.xlsx",
+    "workbook_sha256": "0053bf63605f138823cf470fba0a2d3d6bdb8897722aadf85352732c72bcc640",
+    "preview": "F:\\ACM\\publication_tables\\Table_4_Agent_Benchmark\\Table_4_Preview.png",
+    "preview_sha256": "4318847c98501f38f71975c4c2cb967792c55da857f08307e6f90d77701ab78b"
+  },
+  "locked_primary_result": {
+    "B2": "245/300 (81.7%)",
+    "B4": "284/300 (94.7%)",
+    "absolute_difference": "+13.0 percentage points",
+    "adjusted_or_primary_p": 1.999980000199998e-05
+  },
+  "claim_boundary": "Technical agent benchmark only; not clinical utility, diagnostic accuracy, treatment benefit, deployment readiness, or patient outcomes."
+}

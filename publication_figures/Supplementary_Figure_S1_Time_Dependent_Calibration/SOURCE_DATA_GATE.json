@@ -1,0 +1,23 @@
+{
+  "status": "SUPP_FIGURE_S1_SOURCE_READY",
+  "success": true,
+  "checks": {
+    "formal_predictions_9075": true,
+    "five_models": true,
+    "five_repeats": true,
+    "363_patients_per_model_repeat": true,
+    "auc_rows_375": true,
+    "calibration_60_rows_each": true,
+    "calibration_values_bounded": true
+  },
+  "inputs": {
+    "F:\\ACM\\experiments\\phase3a\\formal\\metrics_summary.json": "1874ac2c7b94f5724b95de7316b7eebe1cc2f32c0a80fa306fb82510d6da8e48",
+    "F:\\ACM\\experiments\\phase3a\\formal\\oof_predictions.csv": "7b21074e208a563bc99b6a0a8c458f076a5ab333612e65ce2659cd9d6571228f"
+  },
+  "rows": {
+    "auc": 375,
+    "panel_b_calibration_12m": 60,
+    "panel_c_calibration_36m": 60,
+    "panel_d_calibration_60m": 60
+  }
+}
