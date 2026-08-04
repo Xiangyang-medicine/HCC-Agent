@@ -25,6 +25,8 @@ GSE116174/
 GSE14520/
 Outside data/
 *.parquet
+*.csv
+*.tsv
 *.h5
 *.h5ad
 *.joblib
@@ -52,6 +54,9 @@ publication_figures/**/legacy_archive/
 *.docx
 *.pptx
 *.jsonl
+*.ndjson
+**/source_data/
+**/supplementary_tables/
 
 # Local logs and ad-hoc outputs
 *.log
